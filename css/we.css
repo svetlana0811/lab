@@ -1,0 +1,218 @@
+body{
+	margin: 0;		
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+.color_{
+	margin-bottom: 50px;
+	width:100%;
+	background: #6e9ebf;
+}
+.header_{
+	box-shadow: 5px 5px 25px grey;
+    border: 2px solid #808080be;
+    width: 30%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-shadow: 0px 3px 3px #9ec3e8;
+    margin: 45px auto;
+    background: grey;
+    border-radius: 15px;
+}
+.flex_{
+	display: flex;
+}
+.page1{
+	margin: 0 auto;
+	padding: 10px;
+}
+.pag1{
+	text-align:right;
+	border-width: 2px;
+	border-color: #6F6B6B;
+	border-style: solid;
+	height: 200px;
+}
+.adress_{
+	margin-top: 10px;
+	text-align: left;
+	color: #635a5a;
+	font-size: 16px;
+	font-weight: bold;
+}
+.about{
+	width: 70%;
+	text-align: center;
+	font-size: 16px;
+	color: #635a5a;
+	margin: 10px auto;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.margin_ ,.margin1 {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+p{
+	color: #635a5a;
+	font-size: 14px;
+	font-weight: bold;
+}
+button{
+	color:  #6F6B6B;
+	border-color:  #6F6B6B;
+	border-style: solid;
+	margin: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+button:hover {
+	color: #6e9ebf;
+	background-color: #6F6B6B;
+	
+}
+.blue_{
+	background: #6F6B6B;
+}
+.border_{
+	 margin: 21px 14px;
+    padding: 10px;
+    width: 31%;
+    border: 2px solid #808080;
+    box-shadow: 0px 10px 46px #808080;
+    border-radius: 10px;
+    background: #808080be;
+}
+.border_> div{
+    width: 80%;
+    height: 240px;
+    margin: 0 auto;
+}
+.border_> div>img{
+        display: block;
+    max-width: 100%;
+    height: 100%;
+}
+.col_{
+	color: #6e9ebf;
+}
+iframe{
+	height: 100%;
+	width: 100%;
+}
+/* .margin1{
+    margin: 0 auto;
+    width: 63%;
+    text-align: center;
+} */
+.right_{
+	width: 30%;
+}
+.pic_{
+	border: solid 1px #6F6B6B;
+	height: 200px;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+	margin: 30px auto;
+	padding: 3px 3px;
+    border: 2px solid #808080;
+    box-shadow: 0px 10px 46px #808080;
+    border-radius: 10px;
+    background: #808080be;
+}
+.ourtext{
+	margin: 10px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+ul{
+	margin-top: 0;
+}
+main{
+	width: 100%;
+}
+.img-circle {
+    border-radius: 30%;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.hoverLink:hover{
+      font-size: 17px;
+    margin-right: 18px;
+  }
+img {
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.border_ .rule{
+        font-size: 17px;
+    color: #221f48;
+    font-weight: bold;
+}
+/*owl carousel starts*/
+.owl-carousel .item{
+	padding:0 !important;
+	height:400px !important;;
+}
+.owl-carousel .owl-item div{
+    position: relative;
+    overflow: hidden;
+    margin: 2px;
+    border-radius: 15px;
+}.owl-carousel .owl-item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    max-height: 1490px;
+    -webkit-transition: all 20s;
+    -moz-transition: all 20s;
+    -o-transition: all 20s;
+    transition: all 20s;
+    transition-timing-function:linear;
+}
+ .owl-carousel .owl-item:nth-child(even) img{
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    -o-transform-origin: bottom right;
+    transform-origin: bottom right;
+}     
+.owl-carousel .owl-item:nth-child(odd) img{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    -o-transform-origin: bottom left;
+    transform-origin: bottom left;
+ }
+.owl-carousel .owl-item.active:nth-child(even) img{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+ }      
+.owl-carousel .owl-item.active:nth-child(odd) img{
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+ }
+  /*owl carousel ends*/
+
+
+
+            

@@ -1,0 +1,150 @@
+@media screen and (min-width: 200px) and (max-width: 400px){
+#map2{
+	display:none;
+}
+#map1{
+	display: grid;
+	width: 90%;
+    height: 100px;
+}
+.contactPhoneMap {
+    display: grid;
+    width: 91%;
+    margin: 18px auto;
+}
+.contactPhoneMap> div{
+	width: 96%;
+    padding: 2px;
+}
+.contactPhoneMap i{
+	font-size: 19px;
+}
+.contactPhoneMap .phoneAddress{
+	font-size: 11px;
+}
+.contactPhoneMap .socialPages i{
+  margin: 15px 10px 5px 15px;
+  font-size: 25px;
+}
+.contactPhoneMap> div{
+	margin: 36px 3px;
+}
+.contactInputs{
+	padding-top: 15px;
+}
+.contactInputs form>div>div span, .textareaInp span{
+	font-size: 12px;
+}
+.contactInputs form>div>div input{
+	width: 90%;
+}
+.contUsSub input{
+	width: 40%;
+    font-size: 12px;
+}
+.contactInputs form>div>div input{
+	margin: 1px 0;
+}
+.faq a{
+	font-size: 12px;
+}
+.contactInputs .textareaInp textarea{
+	margin: 4px 0;
+	width: 90%;
+}
+.contactInputs form>div .contUsSub input{
+	width: 40%;
+}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px){
+#map2{
+	display:none;
+}
+#map1{
+	display: grid;
+	width: 90%;
+    height: 100px;
+}
+.contactPhoneMap {
+    display: grid;
+    width: 86%;
+    margin: 18px auto;
+}
+.contactPhoneMap> div{
+	width: 96%;
+    padding: 2px;
+}
+.contactPhoneMap i{
+	font-size: 19px;
+}
+.contactPhoneMap .phoneAddress{
+	font-size: 13px;
+}
+.contactPhoneMap .socialPages i{
+  margin: 15px 10px 5px 15px;
+ 
+  font-size: 25px;
+}
+.contactPhoneMap> div{
+	margin: 36px 3px;
+}
+.contactInputs{
+	padding-top: 15px;
+}
+.contactInputs form>div>div span, .textareaInp span{
+	font-size: 13px;
+}
+.contactInputs form>div>div input{
+	width: 90%;
+}
+.contUsSub input{
+	width: 40%;
+    font-size: 12px;
+}
+.contactInputs form>div>div input{
+	margin: 1px 0;
+}
+.faq a{
+	font-size: 12px;
+}
+.contactInputs .textareaInp textarea{
+	margin: 4px 0;
+	width: 90%;
+}
+.contactInputs form>div .contUsSub input{
+	width: 40%;
+}
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+.contactPhoneMap{
+	width: 82%;
+}
+.contactPhoneMap .phoneAddress{
+	font-size: 15px;
+}
+.contactPhoneMap .socialPages i{
+	font-size: 34px;
+}
+.contactInputs form>div>div span, .textareaInp span{
+	font-size: 13px;
+}
+.faq a{
+	font-size: 17px;
+}
+
+}
+
+/*@media screen and (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1580px){
+
+
+}*/

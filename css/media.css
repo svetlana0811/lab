@@ -1,0 +1,108 @@
+@media screen and (max-width: 1200px){
+	.studentsPics{
+		width: 74%;
+	}
+	.lessons>div >div>div .titles{
+		padding: 15px;
+		font-size: 23px;
+	}
+	.lessons>.titleCourses{
+		width: 38%;
+		font-size: 19px;
+	}
+}
+@media screen and (max-width: 890px){
+	.logAndCours{
+		width: 60%;
+	    display: grid;	
+   		margin: 30px auto;
+	}
+	.theyTrustUs{
+		font-size: 10px;
+	}
+	.studentsPics{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 650px){
+	.opinionsAboutUs{
+		display: grid;
+	}
+	.opinionsAboutUs>div{
+		width: 80%;
+    	margin: 25px auto;
+	}
+	.studentsPics{
+		width: 60%;
+		border-radius: 20px;
+	}
+	.howIsWorking{
+		font-size: 11px;
+	}
+	.threeSteps{
+		display: grid;
+	}
+	.secondPic{
+		display: block !important;
+	}
+	.firstPic{
+		display: none !important;
+	}
+	.ourTechnicPics{
+		width: 90%;
+    	margin: 0 auto;
+        padding: 15px 0px;
+	}
+	.aboutSteps {
+	    width: 90%;
+	    margin: 0 auto;
+	}
+	.partners{
+		display: grid;
+	}
+	.partners div {
+	    width: 40%;
+	    margin: 20px auto;
+	}
+	.outPartners{
+		width: 70%;
+	}
+	.sidebar-anchor{
+		font-size: 15px;
+	}
+	.sidebar{
+		width: 140px;
+	}
+	.move-to-left {
+	  -webkit-transform: translateX(-140px);
+	  -moz-transform: translateX(-140px);
+	  -ms-transform: translateX(-140px);
+	  -o-transform: translateX(-140px);
+	  transform: translateX(-140px);
+	}
+
+}
+@media screen and (max-width: 400px){
+	footer{
+		height: auto;
+	}
+	#floatNone{
+		float: none !important;
+	}
+	footer>div{
+		display: grid;
+	}
+	.weInSoc .fa{
+		margin: 10px;
+	}
+	.logAndCours{
+		width: 87%;
+	}
+	.bar{
+		width: 21px;
+		margin: 2px auto;
+	}
+	.nav-right{
+		right: 20px;
+	}
+}

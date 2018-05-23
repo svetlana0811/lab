@@ -1,0 +1,70 @@
+@media screen and (min-width: 200px) and (max-width: 400px){
+	.registrDiv{
+		width: 86%;
+	}
+	.registrDiv form div span{
+		font-size: 12px;
+	}
+	.registrDiv form div input{
+		width: 100%;
+	}
+	.registrDiv form div{
+		margin: 10px auto;
+	}
+	.registrDiv form div input{
+		padding: 2px;
+    	margin-top: 5px;
+	}
+	.registrDiv{
+		margin: 8px auto 0;
+	}
+	.registrDiv form .submit input{
+		font-size: 14px;
+		width: 66%;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px){
+.registrDiv{
+		width: 70%;
+	}
+	.registrDiv form div span{
+		font-size: 14px;
+	}
+	.registrDiv form div input{
+		width: 100%;
+	}
+	.registrDiv form div{
+		margin: 10px auto;
+	}
+	.registrDiv form div input{
+		padding: 4px;
+    	margin-top: 5px;
+	}
+	.registrDiv{
+		margin: 8px auto 0;
+	}
+	.registrDiv form .submit input{
+		font-size: 14px;
+		width: 66%;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+	.registrDiv{
+		width: 32%;
+	}
+
+}
+
+/*@media screen and (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1580px){
+
+
+}*/

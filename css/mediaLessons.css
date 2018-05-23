@@ -1,0 +1,96 @@
+@media screen and (min-width: 200px) and (max-width: 400px){
+	.lessons>.titleCourses {
+	    width: 90%;
+	    font-size: 14px;
+	}
+	.lessons>div>div{
+		display: grid;
+	}
+	.lessons>div >div>div{
+		margin: 10px;
+		width: 90%;
+	}
+	h2{
+		font-size: 14px;
+	}
+	#books{
+		width:  50%;
+	}
+	.ourSeminars .seminarDivs div, .ourLibrary .libraryDivs div{
+		width: 80%
+	}
+	.faq a{
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 980px){
+	#books {
+	    width: 25%;
+	}
+	.sidebar{
+		
+    width: 150px
+	}
+	.lessons>div >div>div{
+		width: 88%;
+		margin: 23px auto;
+	}
+	.lessons>div>div{
+		display: block;
+	}
+	.ourSeminars .seminarDivs div, .ourLibrary .libraryDivs div , .ourSeminars, .ourLibrary{
+		width: 85%;
+	}
+	.lessons>.titleCourses{
+	    width: 50%;
+    	font-size: 16px;
+	}
+}
+@media screen and (min-width: 650px) and (max-width: 980px){
+	.sidebar{
+		width: 200px
+	}
+}
+@media screen and (min-width: 981px) and (max-width: 1300px){
+	.lessons>div>div{
+		text-align: center;
+		width: 100%;
+		margin: 5px;
+    	display: flex;
+	}
+	.lessons>.titleCourses{
+		width: 35%;
+	    text-align: center;
+	    font-size: 15px;
+	}
+	.lessons>div >div>div>div>div{
+		margin: 5px 5px;
+		font-size: 13px;
+	}
+	.heigh1_{
+		height: 63px;
+	}
+	.height2_2{
+		height: 40px;
+	}
+	.heigh2_{
+		height: 118px;
+	}
+	.heigh3_3{
+		height: 35px;
+	}
+	.heigh3_{
+		height: 60px;
+	}
+	.ourSeminars, .ourLibrary{
+		margin: 2px auto;
+	}
+	h2{
+		font-size: 20px;
+	}
+	.faq a{
+		font-size: 18px;
+	}
+
+}
